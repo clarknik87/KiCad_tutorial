@@ -8,8 +8,8 @@ Sheet 1 1
 Title "Wire_Cutters"
 Date "2019-12-04"
 Rev "3"
-Comp ""
-Comment1 ""
+Comp "USU Get Away Special Tree"
+Comment1 "Cognizant Engineer: Chaz Cornwall"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -202,8 +202,8 @@ Wire Wire Line
 	6600 3600 6800 3600
 Text GLabel 6800 3600 2    50   Input ~ 0
 WC_on
-Text Notes 7300 4150 0    50   ~ 0
-To Nichrome Wire
 Text Notes 3650 3950 0    50   ~ 0
 To Computer Board
+Text Notes 7300 4150 0    50   ~ 0
+To Nichrome Wire
 $EndSCHEMATC
