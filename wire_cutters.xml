@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\clark\Documents\GAS_Team\KiCad Projects\wireCutter_pcb\wire_cutters.sch</source>
+    <date>11/11/2019 2:24:32 PM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Wire_Cutters</title>
+        <company/>
+        <rev>2</rev>
+        <date>2019-11-11</date>
+        <source>wire_cutters.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>IRF-100S201</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D23F811</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D240B07</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>power_resistor</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="GASPACSElectrical-rescue" part="power_resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8AF34F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x05</value>
+      <footprint>Connector_Wire:SolderWirePad_2x02_P2.54mm_Drill0.8mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC9CE24</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05</value>
+      <footprint>Connector_Wire:SolderWirePad_2x02_P2.54mm_Drill0.8mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC9D089</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01</value>
+      <footprint>Connector_Wire:SolderWirePad_1x01_Drill0.8mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC9D0EA</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC9D2A9</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2SCR293P</value>
+      <footprint>footprints:SOT-89</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/2sd1047.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SD1047" description="12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA383C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA484E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GASPACSElectrical-rescue" part="power_resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">power_resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="NotConnected"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2SD1047">
+      <description>12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB</description>
+      <docs>http://www.st.com/resource/en/datasheet/2sd1047.pdf</docs>
+      <footprints>
+        <fp>TO?3PB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SD1047</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-3PB-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="GASPACSElectrical-rescue">
+      <uri>C:\Users\clark\Documents\GAS_Team\KiCad Projects\wireCutter_pcb/GASPACSElectrical-rescue.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="3" name="WC1_on">
+      <node ref="Q2" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="4" name="/Battery_Raw">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="3"/>
+    </net>
+    <net code="8" name="/NWout">
+      <node ref="Q1" pin="3"/>
+      <node ref="J2" pin="1"/>
+    </net>
+  </nets>
+</export>

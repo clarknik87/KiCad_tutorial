@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name wire_cutters-cache)(type Legacy)(uri ${KIPRJMOD}/wire_cutters-cache.lib)(options "")(descr ""))
+  (lib (name GASPACSElectrical-rescue)(type Legacy)(uri ${KIPRJMOD}/GASPACSElectrical-rescue.lib)(options "")(descr ""))
+  (lib (name ADA3708)(type Legacy)(uri ${KIPRJMOD}/footprints.pretty/ADA3708.lib)(options "")(descr ""))
+  (lib (name ADS1115IDGSR)(type Legacy)(uri ${KIPRJMOD}/footprints.pretty/ADS1115IDGSR.lib)(options "")(descr ""))
+  (lib (name DS3231SN_)(type Legacy)(uri ${KIPRJMOD}/footprints.pretty/DS3231SN_.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/footprints.pretty/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name TLV2472AID)(type Legacy)(uri ${KIPRJMOD}/footprints.pretty/TLV2472AID.lib)(options "")(descr ""))
+  (lib (name TLV2474AID)(type Legacy)(uri ${KIPRJMOD}/footprints.pretty/TLV2474AID.lib)(options "")(descr ""))
+)
