@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Q_NMOS_GDS Q2
-U 1 1 5DE81C62
-P 5850 4300
-F 0 "Q2" V 6100 4300 50  0000 L CNN
-F 1 "IRF-100S201" V 6200 4100 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 6050 4400 50  0001 C CNN
-F 3 "~" H 5850 4300 50  0001 C CNN
-	1    5850 4300
-	0    1    1    0   
-$EndComp
-$Comp
 L Transistor_BJT:2SD1047 Q1
 U 1 1 5DE81C8E
 P 5950 3600
@@ -153,11 +142,6 @@ Batt_Raw
 Wire Wire Line
 	7200 4300 7300 4300
 Wire Wire Line
-	4700 4400 5650 4400
-Connection ~ 4700 4400
-Wire Wire Line
-	6050 4400 7300 4400
-Wire Wire Line
 	5850 3800 5850 3950
 Wire Wire Line
 	5850 3400 5850 2950
@@ -178,9 +162,6 @@ F 3 "" H 5600 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 3950 5850 3950
-Connection ~ 5850 3950
-Wire Wire Line
-	5850 3950 5850 4100
 $Comp
 L power:+5V #PWR02
 U 1 1 5DE8C55C
@@ -202,8 +183,16 @@ Wire Wire Line
 	6600 3600 6800 3600
 Text GLabel 6800 3600 2    50   Input ~ 0
 WC_on
-Text Notes 7300 4150 0    50   ~ 0
-To Nichrome Wire
 Text Notes 3650 3950 0    50   ~ 0
 To Computer Board
+Text Notes 7300 4150 0    50   ~ 0
+To Nichrome Wire
+Wire Wire Line
+	4700 4400 5050 4400
+Connection ~ 4700 4400
+Wire Wire Line
+	7300 4400 6650 4400
+Wire Wire Line
+	5850 3950 5850 4000
+Connection ~ 5850 3950
 $EndSCHEMATC
